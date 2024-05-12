@@ -1,24 +1,22 @@
-# Processamento Gráfico: Fundamentos 2024-1
+Lista 1:
 
-Alguns projetos desenvolvidos para as aulas de Processamento Gráfico: Fundamentos dos curso de Ciência da Computação da Unisinos.
+1. O que é a GLSL? Quais os dois tipos de shaders são obrigatórios no pipeline programável da versão atual que trabalhamos em aula e o que eles processam?
 
-As dependências estão pré-compiladas para Windows 10 32-bits e compilador do Visual Studio 2019/2022
-Se o seu ambiente de desenvolvimento for diferente, você deve baixar:
+OpenGL Shading Language (GLSL) é uma linguagem de sombreamento de alto nível com uma sintaxe baseada em C. Os dois tipos obrigatórios de shaders para o OpenGL 4 são o Vertex Shader, que descreve como tratar um vértice, e o Fragment Shader, que descreve como tratar uma área.
 
-- GLFW: https://www.glfw.org/
-- GLAD: https://glad.dav1d.de/ - para mais instruções, consulte: https://learnopengl.com/Getting-started/Creating-a-window
+2. O que são primitivas gráficas? Como fazemos o armazenamento dos vértices na OpenGL?
+   
+As primitivas gráficas são os elementos mais simples que podem ser criados:
+GL_POINTS: pontos
+GL_LINES: linha a cada 2 pontos do array
+GL_LINE_STRIP: linha entre todos os pontos do array do primeiro ao ultimo
+GL_LINE_LOOP: linha entre todos os pontos do array
+GL_TRIANGULOS: triangulo a cada 3 pontos do array
+GL_TRIANGLE_STRIP: triangulos grudados
+GL_TRIANGLE_FAN: triangulo a cada 2 pontos do array sendo que o terceiro ponto é sempre o primeiro do array
 
- Ao abrir o projeto, pode ser que seja necessário mudar a arquitetura para x86 (caso queira usar as dependências que vieram com o projeto):
- 
-![image](https://user-images.githubusercontent.com/2465857/128773364-4589fffe-57f9-4de2-acdf-7898abbaad8b.png)
+3. Explique o que é VBO, VAO e EBO, e como se relacionam (se achar mais fácil, pode fazer um gráfico representando a relação entre eles). 
 
-Se você quiser ou precisar alterar as dependências, você deve ir em Projeto -> Propriedades e alterar estes 3 lugares:
+Vertex Buffer Object (VBO) é um buffer que armazena um array de dados (posição, vetores, cores etc) diretamente na memória da GPU, permitindo uma renderização mais rápida. Vertex Array Object (VAO) faz a ligação dos atributos de um vértice, ele define que VBO vai ser usado e a localização e o formato desses dados.
 
-1) Diretório com os arquivos de cabeçalho (onde ficam os .h da biblioteca): 
-![image](https://user-images.githubusercontent.com/2465857/128772404-13b3a1a4-fc71-4a93-9de1-1eb9cba05969.png)
-
-2) Diretório com os arquivos de biblioteca estática pré-compilados (.lib ou .a):
-![image](https://user-images.githubusercontent.com/2465857/128772735-d04bec8e-edcd-485f-a103-e66f1810cdad.png)
-
-3) Incluir os nomes das bibliotecas estáticas:
-![image](https://user-images.githubusercontent.com/2465857/128772961-04745bc6-ef1d-45b3-9aa7-a623d2af3065.png)
+4. Analise o código fonte do projeto Hello Triangle. Localize e relacione os conceitos de shaders, VBOs e VAO apresentados até então. Não precisa entregar nada neste exercício.
