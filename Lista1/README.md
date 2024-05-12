@@ -37,8 +37,38 @@ d. Com as 3 formas de desenho juntas.
 
 ![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/15554904-abe8-494a-9caa-4d6ea669b09e)
 
+6. Faça o desenho de um círculo na tela, utilizando a equação paramétrica do círculo para 
+gerar os vértices. Depois disso:
 
+![Circulo](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/bc86bf2e-9b73-4383-93a5-e7c75ad693bd)
 
+a) Desenhe um octágono
+
+![octagono](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/4c59d9c0-83f7-4787-97d0-625e35dd76e6)
+
+b) Desenhe um pentágono
+
+![Pentagono](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/33960382-ac25-46be-9b31-1e9b3b9bb954)
+
+c) Desenhe um pac-man!
+
+![Pac_man](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/ad97585d-ae5b-4892-a0e2-0916b64a49ce)
+
+d) Desenhe uma fatia de pizza
+
+![Pizza](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/64cbede4-bd72-4064-af27-482a2e0c26fe)
+
+e) DESAFIO: desenhe uma “estrela”
+
+Instruções de controle para cada execução:
+
+![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/42e7600f-75bf-4aea-97c0-88715d013a00)
+
+![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/2e80fa8b-2189-48bf-a4f6-675701cd216c)
+
+![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/fcf59b45-059a-4b31-b963-dd4e34eddcef)
+
+7. Desenhe uma espiral, assim:
 
 
 
