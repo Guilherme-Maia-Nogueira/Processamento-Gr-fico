@@ -7,6 +7,7 @@
 3. Utilizando a câmera 2D do exercício anterior, desenhe algo na tela. O que acontece quando posicionamos os objetos? Por que é útil essa configuração?
    
 Com o aumento das proporções não é impossível de ver a figura (triângulo) no plano mundo. É uma configuração útil para definir as extremidades mínimas e máximas para os eixos x e y. 
+
 5. Modifique o viewport para desenhar a cena apenas no seguinte quadrante da janela da aplicação:
  
  ![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/84d78826-6121-4884-9b3b-563f88bab4d8)
