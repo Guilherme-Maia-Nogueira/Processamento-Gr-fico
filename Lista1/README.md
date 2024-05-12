@@ -37,13 +37,6 @@ d. Com as 3 formas de desenho juntas.
 
 ![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/15554904-abe8-494a-9caa-4d6ea669b09e)
 
-Instruções de controle para cada execução:
-
-![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/42e7600f-75bf-4aea-97c0-88715d013a00)
-
-![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/2e80fa8b-2189-48bf-a4f6-675701cd216c)
-
-![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/fcf59b45-059a-4b31-b963-dd4e34eddcef)
 
 
 
