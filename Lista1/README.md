@@ -20,3 +20,36 @@ GL_TRIANGLE_FAN: triangulo a cada 2 pontos do array sendo que o terceiro ponto �
 Vertex Buffer Object (VBO) é um buffer que armazena um array de dados (posição, vetores, cores etc) diretamente na memória da GPU, permitindo uma renderização mais rápida. Vertex Array Object (VAO) faz a ligação dos atributos de um vértice, ele define que VBO vai ser usado e a localização e o formato desses dados.
 
 4. Analise o código fonte do projeto Hello Triangle. Localize e relacione os conceitos de shaders, VBOs e VAO apresentados até então. Não precisa entregar nada neste exercício.
+
+5. Faça o desenho de 2 triângulos na tela. Desenhe eles:
+a)	Apenas com o polígono preenchido.
+![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/950e2318-4958-465d-899e-2c60cba32913)
+
+b. Apenas com contorno.
+
+![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/b064fb6c-5cbc-4385-8ead-7d1cb67f17b5)
+
+c. Apenas como pontos.
+
+![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/93cc5b21-236b-4d19-b230-c2058800e08f)
+
+d. Com as 3 formas de desenho juntas.
+
+![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/15554904-abe8-494a-9caa-4d6ea669b09e)
+
+Instruções de controle para cada execução:
+
+![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/42e7600f-75bf-4aea-97c0-88715d013a00)
+
+![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/2e80fa8b-2189-48bf-a4f6-675701cd216c)
+
+![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/fcf59b45-059a-4b31-b963-dd4e34eddcef)
+
+
+
+
+
+
+
+
+
