@@ -2,7 +2,7 @@
 
 Reslução dos exercícios com prints das execuções estão no arquivo README de cada lista.
 
-Jogo Trabalho do Grau A:
+Jogo Pato - Trabalho do Grau A:
 
 Integrantes do Grupo:  Caua Festa e Guilherme Nogueira
 
