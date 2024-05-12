@@ -69,8 +69,23 @@ Instruções de controle para cada execução:
 ![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/fcf59b45-059a-4b31-b963-dd4e34eddcef)
 
 7. Desenhe uma espiral, assim:
+   
+![Lista7_Espiral](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/5fa4900f-fc9d-4eed-9b48-d3708d82d3ba)
 
+8. Considerando o seguinte triângulo abaixo, formado pelos vértices P1, P2 e P3, 
+respectivamente com as cores vermelho, verde e azul. 
+a. Descreva uma possível configuração dos buffers (VBO, VAO e EBO) para 
+representá-lo. 
+b. Como estes atributos seriam identificados no vertex shader?
 
+![Lista1_8](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/7c9ca212-b21b-41ff-9ef4-3e2012ff22a6)
+
+9. Faça um desenho em um papel quadriculado (pode ser no computador mesmo) e 
+reproduza-o utilizando primitivas em OpenGL. Neste exercício você poderá criar mais de um 
+VAO e fazer mais de uma chamada de desenho para poder utilizar primitivas diferentes, se 
+necessário.
+
+![Lista1_9](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/00435283-0662-41a4-ac1d-df1123ecba25)
 
 
 
