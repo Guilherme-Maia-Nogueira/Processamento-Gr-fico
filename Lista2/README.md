@@ -1,24 +1,17 @@
-# Processamento Gráfico: Fundamentos 2024-1
+1. Modifique a janela do mundo (window/ortho) para os limites: xmin=-10, xmax=10, ymin=-10, ymax=10.
+ ![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/9e444deb-aa3f-4976-a72d-1ac29f482563)
 
-Alguns projetos desenvolvidos para as aulas de Processamento Gráfico: Fundamentos dos curso de Ciência da Computação da Unisinos.
+2. Agora modifique para: xmin=0, xmax=800, ymin=600, ymax=0. De preferência, comente/remova o código de correção de aspecto.
+ ![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/f0f6ef38-c5c9-4ce3-abb4-667724c42265)
 
-As dependências estão pré-compiladas para Windows 10 32-bits e compilador do Visual Studio 2019/2022
-Se o seu ambiente de desenvolvimento for diferente, você deve baixar:
-
-- GLFW: https://www.glfw.org/
-- GLAD: https://glad.dav1d.de/ - para mais instruções, consulte: https://learnopengl.com/Getting-started/Creating-a-window
-
- Ao abrir o projeto, pode ser que seja necessário mudar a arquitetura para x86 (caso queira usar as dependências que vieram com o projeto):
+3. Utilizando a câmera 2D do exercício anterior, desenhe algo na tela. O que acontece quando posicionamos os objetos? Por que é útil essa configuração?
+Como o aumento das proporções não é impossível de ver a figura (triângulo) no plano mundo. É uma configuração útil para definir as extremidades mínimas e máximas para os eixos x e y. 
+4. Modifique o viewport para desenhar a cena apenas no seguinte quadrante da janela da aplicação:
  
-![image](https://user-images.githubusercontent.com/2465857/128773364-4589fffe-57f9-4de2-acdf-7898abbaad8b.png)
+ ![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/84d78826-6121-4884-9b3b-563f88bab4d8)
+![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/84cf3527-8ef7-4c5b-af3a-af0f051edfe4)
 
-Se você quiser ou precisar alterar as dependências, você deve ir em Projeto -> Propriedades e alterar estes 3 lugares:
-
-1) Diretório com os arquivos de cabeçalho (onde ficam os .h da biblioteca): 
-![image](https://user-images.githubusercontent.com/2465857/128772404-13b3a1a4-fc71-4a93-9de1-1eb9cba05969.png)
-
-2) Diretório com os arquivos de biblioteca estática pré-compilados (.lib ou .a):
-![image](https://user-images.githubusercontent.com/2465857/128772735-d04bec8e-edcd-485f-a103-e66f1810cdad.png)
-
-3) Incluir os nomes das bibliotecas estáticas:
-![image](https://user-images.githubusercontent.com/2465857/128772961-04745bc6-ef1d-45b3-9aa7-a623d2af3065.png)
+5. Agora, desenhe a mesma cena nos 4 quadrantes.
+  
+![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/7f0d48fb-1cb7-4cad-8da5-e513089b845f)
+![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/4fe7b923-734b-46e3-807a-ecb552c3b714)
