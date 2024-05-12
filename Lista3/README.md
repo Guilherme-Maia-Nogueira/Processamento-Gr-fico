@@ -1,24 +1,15 @@
-# Processamento Gráfico: Fundamentos 2024-1
+1. Desenhe uma mesma geometria 3 vezes na tela, aplicando transformações diferentes (mesmo VAO, matrizes de transformações diferentes, 3 chamadas de desenho). 
 
-Alguns projetos desenvolvidos para as aulas de Processamento Gráfico: Fundamentos dos curso de Ciência da Computação da Unisinos.
+ ![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/b3b8e807-b01d-4f0f-bc5b-9f427f9c640d)
 
-As dependências estão pré-compiladas para Windows 10 32-bits e compilador do Visual Studio 2019/2022
-Se o seu ambiente de desenvolvimento for diferente, você deve baixar:
+ ![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/fe3b4832-851a-4dc0-980b-630005053d56)
 
-- GLFW: https://www.glfw.org/
-- GLAD: https://glad.dav1d.de/ - para mais instruções, consulte: https://learnopengl.com/Getting-started/Creating-a-window
+2. Altere a posição de uma geometria (triângulo ou retângulo) nas 4 direções (cima, baixo, esquerda e direita) utilizando comandos de teclado para o controle (WASD ou setas). 
 
- Ao abrir o projeto, pode ser que seja necessário mudar a arquitetura para x86 (caso queira usar as dependências que vieram com o projeto):
- 
-![image](https://user-images.githubusercontent.com/2465857/128773364-4589fffe-57f9-4de2-acdf-7898abbaad8b.png)
+  ![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/b393bde3-599e-43ae-9b20-b5fd0f110416)
 
-Se você quiser ou precisar alterar as dependências, você deve ir em Projeto -> Propriedades e alterar estes 3 lugares:
+![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/bd2e7c10-9d80-4bb8-b7cc-58309cae8b6f)
 
-1) Diretório com os arquivos de cabeçalho (onde ficam os .h da biblioteca): 
-![image](https://user-images.githubusercontent.com/2465857/128772404-13b3a1a4-fc71-4a93-9de1-1eb9cba05969.png)
+![image](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/5e5c8234-7484-454f-a7f2-7ed047439341)
 
-2) Diretório com os arquivos de biblioteca estática pré-compilados (.lib ou .a):
-![image](https://user-images.githubusercontent.com/2465857/128772735-d04bec8e-edcd-485f-a103-e66f1810cdad.png)
-
-3) Incluir os nomes das bibliotecas estáticas:
-![image](https://user-images.githubusercontent.com/2465857/128772961-04745bc6-ef1d-45b3-9aa7-a623d2af3065.png)
+ (Desafio-extra) “Screensaver”: implemente um algoritmo que controle uma geometria (triângulo ou quadrilátero) com comportamento parecido com o do jogo “Pong” (quando atinge os limites da tela, espelha o vetor de direção)
