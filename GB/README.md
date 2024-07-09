@@ -1,24 +1,43 @@
 # Processamento Gráfico: Fundamentos 2024-1
 
-Alguns projetos desenvolvidos para as aulas de Processamento Gráfico: Fundamentos dos curso de Ciência da Computação da Unisinos.
+Projeto desenvolvido com objetivo de editar foto informada pelo usuário via console e vídeo por webcam. É possível aplicar filtros e colar stickers nas imagens, também é possível salvar as imagens ao clicar a tecla 'q'. Ao executar o projeto, será mostrado no console os comandos disponíveis. 
 
-As dependências estão pré-compiladas para Windows 10 32-bits e compilador do Visual Studio 2019/2022
-Se o seu ambiente de desenvolvimento for diferente, você deve baixar:
+Projeto desenvolvido em Python 3.8.0
+==========================================================================================================================================
 
-- GLFW: https://www.glfw.org/
-- GLAD: https://glad.dav1d.de/ - para mais instruções, consulte: https://learnopengl.com/Getting-started/Creating-a-window
+INSTRUÇÕES DE COMANDO
+===============================
+c: Canny edge detection        
+b: Gaussian blur
+m: Magenta filter
+s: Sobel filter
+l: Laplacian filter
+h: Histogram equalization      
+t: Binary thresholding
+e: Erosion
+d: Dilation
+n: Negative transformation     
+===============================
+r: Remover o filtro ativo      
+f: Finalizar edição
+q: Salvar
+===============================
+a: Adicionar sticker GatoBranco
+g: Adicionar sticker Pele
+i: Adicionar sticker BuzzLightyear
+k: Adicionar sticker DogDeOculos
+o: Adicionar sticker Ozzy
+p: Adicionar sticker DoNeida
+u: Adicionar sticker CalmaiPaizao
+z: Adicionar sticker GatoPreto
+y: Adicionar sticker MeninaCopo
+w: Adicionar sticker Picapau
+===============================
+Edição de foto, exemplos:
 
- Ao abrir o projeto, pode ser que seja necessário mudar a arquitetura para x86 (caso queira usar as dependências que vieram com o projeto):
- 
-![image](https://user-images.githubusercontent.com/2465857/128773364-4589fffe-57f9-4de2-acdf-7898abbaad8b.png)
+![imagem_editada1](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/7d298f6c-32b9-4f04-88b9-0b51e8d06655)
 
-Se você quiser ou precisar alterar as dependências, você deve ir em Projeto -> Propriedades e alterar estes 3 lugares:
+![imagem_editada0](https://github.com/Guilherme-Maia-Nogueira/Processamento-Gr-fico/assets/166163081/98e852a8-0702-487d-831e-5f295a2f9269)
 
-1) Diretório com os arquivos de cabeçalho (onde ficam os .h da biblioteca): 
-![image](https://user-images.githubusercontent.com/2465857/128772404-13b3a1a4-fc71-4a93-9de1-1eb9cba05969.png)
 
-2) Diretório com os arquivos de biblioteca estática pré-compilados (.lib ou .a):
-![image](https://user-images.githubusercontent.com/2465857/128772735-d04bec8e-edcd-485f-a103-e66f1810cdad.png)
 
-3) Incluir os nomes das bibliotecas estáticas:
-![image](https://user-images.githubusercontent.com/2465857/128772961-04745bc6-ef1d-45b3-9aa7-a623d2af3065.png)
