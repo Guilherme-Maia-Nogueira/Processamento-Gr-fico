@@ -1,0 +1,15 @@
+C:\Users\marin\Desktop\TESTEVS\SimuladorPipeline\bin\Debug\net6.0\SimuladorPipeline.exe
+C:\Users\marin\Desktop\TESTEVS\SimuladorPipeline\bin\Debug\net6.0\SimuladorPipeline.deps.json
+C:\Users\marin\Desktop\TESTEVS\SimuladorPipeline\bin\Debug\net6.0\SimuladorPipeline.runtimeconfig.json
+C:\Users\marin\Desktop\TESTEVS\SimuladorPipeline\bin\Debug\net6.0\SimuladorPipeline.dll
+C:\Users\marin\Desktop\TESTEVS\SimuladorPipeline\bin\Debug\net6.0\SimuladorPipeline.pdb
+C:\Users\marin\Desktop\TESTEVS\SimuladorPipeline\obj\Debug\net6.0\SimuladorPipeline.csproj.AssemblyReference.cache
+C:\Users\marin\Desktop\TESTEVS\SimuladorPipeline\obj\Debug\net6.0\SimuladorPipeline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marin\Desktop\TESTEVS\SimuladorPipeline\obj\Debug\net6.0\SimuladorPipeline.AssemblyInfoInputs.cache
+C:\Users\marin\Desktop\TESTEVS\SimuladorPipeline\obj\Debug\net6.0\SimuladorPipeline.AssemblyInfo.cs
+C:\Users\marin\Desktop\TESTEVS\SimuladorPipeline\obj\Debug\net6.0\SimuladorPipeline.csproj.CoreCompileInputs.cache
+C:\Users\marin\Desktop\TESTEVS\SimuladorPipeline\obj\Debug\net6.0\SimuladorPipeline.dll
+C:\Users\marin\Desktop\TESTEVS\SimuladorPipeline\obj\Debug\net6.0\refint\SimuladorPipeline.dll
+C:\Users\marin\Desktop\TESTEVS\SimuladorPipeline\obj\Debug\net6.0\SimuladorPipeline.pdb
+C:\Users\marin\Desktop\TESTEVS\SimuladorPipeline\obj\Debug\net6.0\SimuladorPipeline.genruntimeconfig.cache
+C:\Users\marin\Desktop\TESTEVS\SimuladorPipeline\obj\Debug\net6.0\ref\SimuladorPipeline.dll
